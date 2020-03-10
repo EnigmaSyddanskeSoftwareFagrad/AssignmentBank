@@ -4,6 +4,7 @@ This repository is an assignment bank with assignments from software students on
 Feel free to create pull-requests with your assignements, but before you do so, please read the rules.
 
 ## Rules
+* Make sure one of your group members has not already uploaded your assignment.
 * Make sure to anonymise your assignments.
 * Please follow the folder structure of [Year]/[Semester]/[YourAssignmentFolder]
 * Feel free to add your grade at the end of the name of your folder in square brackets. This is not mandatory.
