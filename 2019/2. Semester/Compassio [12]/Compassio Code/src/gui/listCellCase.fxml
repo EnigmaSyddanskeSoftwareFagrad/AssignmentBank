@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane hgap="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns:fx="http://javafx.com/fxml/" xmlns="http://javafx.com/javafx/">
+    <columnConstraints>
+        <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="80.0" />
+        <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="80.0" />
+        <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="140.0" />
+        <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="80.0" />
+        <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="80.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="32.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <Label text="Sagsnummer:" GridPane.halignment="LEFT" GridPane.valignment="CENTER" />
+        <Label fx:id="caseNumber" text="Nummer" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.hgrow="SOMETIMES" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES" />
+        <Label fx:id="caseName" text="Navn" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.halignment="LEFT" GridPane.valignment="CENTER" />
+        <Label fx:id="caseCPR" text="CPR" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+        <Label fx:id="caseType" text="Type sag" GridPane.columnSpan="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+        <Label text="Oprettet d." GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.valignment="CENTER">
+            <GridPane.margin>
+                <Insets left="18.0" />
+            </GridPane.margin>
+        </Label>
+        <Label fx:id="caseDateClosedLabel" text="Lukket d:" visible="false" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <GridPane.margin>
+                <Insets left="18.0" />
+            </GridPane.margin>
+        </Label>
+        <Label fx:id="caseDateClosed" text="Dato" visible="false" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+        <Label fx:id="caseDateCreated" text="Dato" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.valignment="CENTER" />
+        <ImageView fitHeight="32.0" fitWidth="32.0" onMouseClicked="#btnOpenCase" pickOnBounds="true" preserveRatio="true" styleClass="btn" GridPane.columnIndex="5" GridPane.halignment="RIGHT" GridPane.rowSpan="2" GridPane.valignment="CENTER">
+            <image>
+                <Image url="@img/icons8_chevron_right_filled_32px.png" />
+            </image>
+        </ImageView>
+    </children>
+</GridPane>

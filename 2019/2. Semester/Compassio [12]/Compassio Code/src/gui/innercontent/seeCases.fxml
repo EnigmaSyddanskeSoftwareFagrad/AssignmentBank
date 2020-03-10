@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="see_cases_ancher" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.innercontent.SeeCasesController">
+   <children>
+      <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label styleClass="headline" text="SØG PÅ EN SAG" />
+            <HBox spacing="10.0">
+               <VBox.margin>
+                  <Insets bottom="40.0" />
+               </VBox.margin>
+               <children>
+                  <TextField fx:id="searchField" HBox.hgrow="ALWAYS" />
+                  <ChoiceBox fx:id="caseType" prefWidth="150.0" />
+               </children>
+            </HBox>
+            <ListView fx:id="listview_cases" stylesheets="@../css/Stylesheet.css" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

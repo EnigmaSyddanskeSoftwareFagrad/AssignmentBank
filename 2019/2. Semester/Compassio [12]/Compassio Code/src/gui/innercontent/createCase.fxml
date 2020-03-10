@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="create_case" visible="true" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.innercontent.CreateCaseController">
+    <children>                    
+        <VBox layoutX="70.0" layoutY="58.0" prefHeight="534.0" prefWidth="635.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label styleClass="headline" text="OPRET SAG" />
+                <HBox alignment="CENTER_LEFT" spacing="10.0">
+                    <children>
+                        <Label prefWidth="100.0" text="Fornavn">
+                            <font>
+                                <Font size="12.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="firstNameField" editable="false">
+                            <font>
+                                <Font size="12.0" />
+                            </font>
+                        </TextField>
+                        <Label prefHeight="17.0" prefWidth="54.0" text="Efternavn">
+                            <font>
+                                <Font size="12.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="100.0" />
+                            </HBox.margin>
+                        </Label>
+                        <TextField fx:id="lastNameField" editable="false">
+                            <font>
+                                <Font size="12.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                    <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                    </VBox.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" spacing="10.0">
+                    <children>
+                        <Label prefWidth="100.0" text="CPR-nummer">
+                            <font>
+                                <Font size="12.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="CPRField" editable="false">
+                            <font>
+                                <Font size="12.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                    <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                    </VBox.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" spacing="10.0">
+                    <children>
+                        <Label prefWidth="100.0" text="Sagstype">
+                            <font>
+                                <Font size="12.0" />
+                            </font>
+                        </Label>
+                        <ChoiceBox fx:id="caseTypeChoiceBox" disable="true" prefHeight="25.0" prefWidth="239.0" />
+                    </children>
+                    <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                    </VBox.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" spacing="10.0">
+                    <children>
+                        <Label prefWidth="100.0" text="Sagsindhold">
+                            <font>
+                                <Font size="12.0" />
+                            </font>
+                        </Label>
+                        <TextArea fx:id="mainBodyArea" editable="false">
+                            <font>
+                                <Font size="12.0" />
+                            </font>
+                        </TextArea>
+                    </children>
+                    <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                    </VBox.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" spacing="10.0">
+                    <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                    </VBox.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                    <children>
+                        <Label prefHeight="21.0" prefWidth="100.0" text="Sagsbehandler">
+                            <font>
+                                <Font size="12.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="userIDTextField" prefHeight="31.0" prefWidth="241.0">
+                            <font>
+                                <Font size="12.0" />
+                            </font>
+                        </TextField>
+                        <Button fx:id="addSocialWorkerBtn" mnemonicParsing="false" onAction="#addSocialWorker" prefHeight="25.0" prefWidth="70.0" styleClass="btn" text="Tilføj">
+                            <font>
+                                <Font size="12.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" spacing="10.0">
+                    <children>
+                        <Label prefWidth="100.0" text="Bostedsafdeling">
+                            <font>
+                                <Font size="12.0" />
+                            </font>
+                        </Label>
+                        <ChoiceBox fx:id="departmentBox" disable="true" prefHeight="25.0" prefWidth="239.0" />
+                    </children>
+                    <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                    </VBox.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" spacing="10.0">
+                    <children>
+                        <Label prefWidth="100.0" text="Bostedsansøgning">
+                            <font>
+                                <Font size="12.0" />
+                            </font>
+                        </Label>
+                        <TextArea fx:id="inquiryArea" editable="false">
+                            <font>
+                                <Font size="12.0" />
+                            </font>
+                        </TextArea>
+                    </children>
+                    <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                    </VBox.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </HBox>
+                <HBox alignment="TOP_RIGHT" spacing="20.0">
+                    <children>
+                        <Button fx:id="editButton" mnemonicParsing="false" onAction="#createCaseButton" prefWidth="100.0" styleClass="btn" text="Opret sag">
+                            <HBox.margin>
+                                <Insets />
+                            </HBox.margin>
+                        </Button>
+                    </children>
+                    <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                    </VBox.margin>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </HBox>
+                            
+            </children>
+            <GridPane.margin>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </GridPane.margin>
+        </VBox>
+    </children>
+</AnchorPane>
+                    
