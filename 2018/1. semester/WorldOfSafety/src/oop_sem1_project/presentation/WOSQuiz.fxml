@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<StackPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop_sem1_project.presentation.WOSQuizController">
+   <children>
+      <ScrollPane fx:id="quizNode" prefHeight="440.0" prefWidth="400.0" style="-fx-border-color: black;">
+         <content>
+            <VBox prefWidth="340.0" spacing="10.0">
+               <children>
+                  <VBox spacing="10.0">
+                     <children>
+                        <Label text="1. In case of fire, what do you do?">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <RadioButton mnemonicParsing="false" text="Find the closest water tap and fill a bucket.">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="question1" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton mnemonicParsing="false" text="Find a fire extinguisher." toggleGroup="$question1" />
+                        <RadioButton mnemonicParsing="false" text="Blow as hard as you can and hope for the best." toggleGroup="$question1" />
+                        <RadioButton mnemonicParsing="false" text="Go the rally point and hope someone else is capable of putting out the fire." toggleGroup="$question1" wrapText="true" />
+                        <Separator prefWidth="200.0">
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </Separator>
+                     </children>
+                  </VBox>
+                  <VBox spacing="10.0">
+                     <children>
+                        <Label text="2. Who do you contact when an emergency occurs?">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <RadioButton mnemonicParsing="false" text="65 50 88 88 then 112.">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="question2" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton mnemonicParsing="false" text="Only 65 50 88 88." toggleGroup="$question2" />
+                        <RadioButton mnemonicParsing="false" text="Only 112." toggleGroup="$question2" />
+                        <RadioButton mnemonicParsing="false" text="112 then 65 50 88 88." toggleGroup="$question2" />
+                        <Separator prefWidth="200.0">
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </Separator>
+                     </children>
+                  </VBox>
+                  <VBox spacing="10.0">
+                     <children>
+                        <Label text="3. Which item should you look for if someone has been sprayed in the eyes with chemicals?" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <RadioButton mnemonicParsing="false" text="A phone.">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="question3" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton mnemonicParsing="false" text="First aid kit." toggleGroup="$question3" />
+                        <RadioButton mnemonicParsing="false" text="Eyewash." toggleGroup="$question3" />
+                        <RadioButton mnemonicParsing="false" text="Fire-extinguisher." toggleGroup="$question3" />
+                        <Separator prefWidth="200.0">
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </Separator>
+                     </children>
+                  </VBox>
+                  <VBox spacing="10.0">
+                     <children>
+                        <Label text="4. A student is experiencing life-threatening cardiac dysrhythmias! What do you do?" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <RadioButton mnemonicParsing="false" text="Run for your life. It is highly contagious!">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="question4" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton mnemonicParsing="false" text="Nothing. It is only a temporary affair." toggleGroup="$question4" />
+                        <RadioButton mnemonicParsing="false" text="Get the fire extinguisher." toggleGroup="$question4" />
+                        <RadioButton mnemonicParsing="false" text="Quickly retrieve the defibrillator while someone else performs CPR." toggleGroup="$question4" wrapText="true" />
+                        <Separator prefWidth="200.0">
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </Separator>
+                     </children>
+                  </VBox>
+                  <VBox spacing="10.0">
+                     <children>
+                        <Label text="5. Blood is pouring out of a students arm and requires immediate attention. What do you do?" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <RadioButton mnemonicParsing="false" text="Get the first aid kit.">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="question5" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton mnemonicParsing="false" text="Pass out because blood is not your thing…" toggleGroup="$question5" />
+                        <RadioButton mnemonicParsing="false" text="Look the other way and hope the student figures something out." toggleGroup="$question5" wrapText="true" />
+                        <RadioButton mnemonicParsing="false" text="Clean up the blood. Someone could slip and fall." toggleGroup="$question5" />
+                        <Separator prefWidth="200.0">
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </Separator>
+                     </children>
+                  </VBox>
+                  <Button mnemonicParsing="false" onAction="#onSubmitAction" prefWidth="347.0" text="Submit Score" />
+               </children>
+            </VBox>
+         </content>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </ScrollPane>
+      <VBox fx:id="finishedNode" prefHeight="200.0" prefWidth="100.0" spacing="10.0" visible="false">
+         <StackPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </StackPane.margin>
+         <children>
+            <Label text="Your Results" underline="true">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label text="Time">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="timeField" editable="false" focusTraversable="false" />
+            <Label text="Quiz Score">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="quizScoreField" editable="false" focusTraversable="false" />
+            <Label text="Score">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="totalScore" editable="false" focusTraversable="false" />
+            <Label text="Passed?">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="passedField" editable="false" focusTraversable="false" />
+            <Button mnemonicParsing="false" onAction="#playAgainAction" prefWidth="1000.0" text="Click to play again">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</StackPane>
