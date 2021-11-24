@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Developed by SI2-PRO Group 3
+Frederik Alexander Hounsvad, Oliver Lind Nordestgaard, Patrick Nielsen, Jacob Kirketerp Andersen, Nadin Fariss
+-->
+
+<?import com.jfoenix.controls.JFXListView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="800.0" prefWidth="1220.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.presentation.modules.journal.JournalFXMLController">
+   <center>
+      <BorderPane maxWidth="1.7976931348623157E308" prefHeight="800.0" prefWidth="1020.0" BorderPane.alignment="CENTER">
+         <center>
+            <VBox BorderPane.alignment="CENTER">
+               <children>
+                  <VBox VBox.vgrow="SOMETIMES">
+                     <children>
+                              <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minWidth="256.5" prefHeight="370.0" prefWidth="500.0" VBox.vgrow="ALWAYS">
+                                 <children>
+                                    <AnchorPane maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="40.0" style="-fx-background-color: #048BA8;" VBox.vgrow="NEVER">
+                                       <children>
+                                          <Label maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" style="-fx-background-color: #048BA8;" text="Medicinal entries" textAlignment="CENTER" textFill="WHITE">
+                                             <opaqueInsets>
+                                                <Insets />
+                                             </opaqueInsets>
+                                             <font>
+                                                <Font size="27.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="10.0" />
+                                             </padding>
+                                          </Label>
+                                          <AnchorPane layoutX="440.0" onMouseClicked="#addMedicinalEntry" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <children>
+                                                <SVGPath content="M39.429,17.5C39.744,17.5 40,17.756 40,18.071C40,19.034 40,20.966 40,21.929C40,22.08 39.94,22.225 39.833,22.333C39.725,22.44 39.58,22.5 39.429,22.5C36.414,22.5 22.5,22.5 22.5,22.5C22.5,22.5 22.5,36.414 22.5,39.429C22.5,39.58 22.44,39.725 22.333,39.833C22.225,39.94 22.08,40 21.929,40C20.966,40 19.034,40 18.071,40C17.92,40 17.775,39.94 17.667,39.833C17.56,39.725 17.5,39.58 17.5,39.429C17.5,36.414 17.5,22.5 17.5,22.5C17.5,22.5 3.586,22.5 0.571,22.5C0.42,22.5 0.275,22.44 0.167,22.333C0.06,22.225 0,22.08 0,21.929C0,20.966 0,19.034 0,18.071C0,17.92 0.06,17.775 0.167,17.667C0.275,17.56 0.42,17.5 0.571,17.5C3.586,17.5 17.5,17.5 17.5,17.5C17.5,17.5 17.5,3.586 17.5,0.571C17.5,0.42 17.56,0.275 17.667,0.167C17.775,0.06 17.92,0 18.071,0C19.042,0 21.001,0 21.971,0C22.123,0 22.268,0.06 22.375,0.167C22.482,0.275 22.543,0.42 22.543,0.571C22.543,3.586 22.543,17.5 22.543,17.5C22.543,17.5 36.419,17.5 39.429,17.5Z" fill="WHITE" layoutX="2.5" layoutY="2.5" scaleX="0.875" scaleY="0.875" smooth="false" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                             </children>
+                                          </AnchorPane>
+                                       </children>
+                                    </AnchorPane>
+                                    <JFXListView fx:id="medicinalEntriesView" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="256.5" onMouseClicked="#medicinalSelected" prefHeight="340.0" stylesheets="@../../css/generalStyleSheet.css" VBox.vgrow="SOMETIMES" />
+                                 </children>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <VBox.margin>
+                              <Insets left="20.0" right="20.0" top="20.0" />
+                           </VBox.margin>
+                              </VBox>
+      
+                                    <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="533.0" prefHeight="370.0" prefWidth="980.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <AnchorPane maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="40.0" style="-fx-background-color: #048BA8;" VBox.vgrow="NEVER">
+                                 <children>
+                                    <Label maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="40.0" style="-fx-background-color: #048BA8;" text="Manual entries" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <font>
+                                          <Font size="27.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets left="10.0" />
+                                       </padding>
+                                    </Label>
+                                    <AnchorPane layoutX="940.0" onMouseClicked="#addManualEntry" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <SVGPath content="M39.429,17.5C39.744,17.5 40,17.756 40,18.071C40,19.034 40,20.966 40,21.929C40,22.08 39.94,22.225 39.833,22.333C39.725,22.44 39.58,22.5 39.429,22.5C36.414,22.5 22.5,22.5 22.5,22.5C22.5,22.5 22.5,36.414 22.5,39.429C22.5,39.58 22.44,39.725 22.333,39.833C22.225,39.94 22.08,40 21.929,40C20.966,40 19.034,40 18.071,40C17.92,40 17.775,39.94 17.667,39.833C17.56,39.725 17.5,39.58 17.5,39.429C17.5,36.414 17.5,22.5 17.5,22.5C17.5,22.5 3.586,22.5 0.571,22.5C0.42,22.5 0.275,22.44 0.167,22.333C0.06,22.225 0,22.08 0,21.929C0,20.966 0,19.034 0,18.071C0,17.92 0.06,17.775 0.167,17.667C0.275,17.56 0.42,17.5 0.571,17.5C3.586,17.5 17.5,17.5 17.5,17.5C17.5,17.5 17.5,3.586 17.5,0.571C17.5,0.42 17.56,0.275 17.667,0.167C17.775,0.06 17.92,0 18.071,0C19.042,0 21.001,0 21.971,0C22.123,0 22.268,0.06 22.375,0.167C22.482,0.275 22.543,0.42 22.543,0.571C22.543,3.586 22.543,17.5 22.543,17.5C22.543,17.5 36.419,17.5 39.429,17.5Z" fill="WHITE" layoutX="2.5" layoutY="2.5" scaleX="0.875" scaleY="0.875" smooth="false" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </AnchorPane>
+                              <JFXListView fx:id="manualEntriesView" onMouseClicked="#manualSelected" stylesheets="@../../css/generalStyleSheet.css" VBox.vgrow="SOMETIMES" />
+                           </children>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                           </VBox.margin>
+                        </VBox>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </center>
+   <right>
+      <VBox maxWidth="-Infinity" prefWidth="200.0" style="-fx-background-color: #048BA8;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="200.0" text="Patients" textAlignment="CENTER" textFill="WHITE" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <JFXListView fx:id="patientView" fixedCellSize="0.0" onMouseClicked="#patientSelected" styleClass="mylistview" stylesheets="@../../css/generalStyleSheet.css" VBox.vgrow="ALWAYS" />
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </VBox>
+   </right>
+</BorderPane>

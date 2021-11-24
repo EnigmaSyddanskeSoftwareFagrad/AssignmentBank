@@ -1,0 +1,19 @@
+/*This is code written by Frederik Alexander Hounsvad
+The use of this code in a non commercial and non exam environment is permitted
+*/
+/* 
+    Created on : 11-May-2019, 16:10:38
+    Author     : Sanitas Solutions
+*/
+
+.jfx-combo-box{
+    -fx-prompt-text-fill: #F4F4F4;
+}
+
+.jfx-combo-box .label{
+    -fx-text-fill: #F4F4F4;
+}
+
+.jfx-combo-box .list-cell {
+    -fx-text-fill: #F4F4F4;
+}

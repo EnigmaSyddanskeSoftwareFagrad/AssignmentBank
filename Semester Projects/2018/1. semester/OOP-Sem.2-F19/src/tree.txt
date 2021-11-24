@@ -1,0 +1,124 @@
++---client
+|   +---communication
+|   |       CommunicationInterface.java
+|   |       CommunicationInterfaceImpl.java
+|   |       
+|   \---presentation
+|       |   CommunicationHandler.java
+|       |   MainFXML.fxml
+|       |   MainFXMLController.java
+|       |   Presentation.java
+|       |   SettingsPopupFXML.fxml
+|       |   SettingsPopupFXMLController.java
+|       |   
+|       +---containers
+|       |   |   Cache.java
+|       |   |   Department.java
+|       |   |   Patient.java
+|       |   |   PatientExtended.java
+|       |   |   Role.java
+|       |   |   User.java
+|       |   |   
+|       |   \---entries
+|       |           ActivityEntry.java
+|       |           CalendarEntry.java
+|       |           Entry.java
+|       |           EventDataEntry.java
+|       |           ManualEntry.java
+|       |           MedicinalEntry.java
+|       |           MessageEntry.java
+|       |           
+|       +---css
+|       |       adminStyleSheet.css
+|       |       calendarStyleSheet.css
+|       |       comboboxStyleSheet.css
+|       |       generalStyleSheet.css
+|       |       menuStyleSheet.css
+|       |       
+|       +---modules
+|       |   |   Module.java
+|       |   |   Popup.java
+|       |   |   
+|       |   +---admin
+|       |   |       AdminFXML.fxml
+|       |   |       AdminFXMLController.java
+|       |   |       PatientCreationPopupFXML.fxml
+|       |   |       PatientCreationPopupFXMLController.java
+|       |   |       
+|       |   +---calendar
+|       |   |       CalendarCacheKey.java
+|       |   |       CalendarDayRythmEditorPopupFXML.fxml
+|       |   |       CalendarDayRythmEditorPopupFXMLController.java
+|       |   |       CalendarEventCreationPopupFXML.fxml
+|       |   |       CalendarEventCreationPopupFXMLController.java
+|       |   |       CalendarEventDetailsPopoverFXML.fxml
+|       |   |       CalendarEventDetailsPopoverFXMLController.java
+|       |   |       CalendarEventEditPopupFXML.fxml
+|       |   |       CalendarEventEditPopupFXMLController.java
+|       |   |       CalendarFXML.fxml
+|       |   |       CalendarFXMLController.java
+|       |   |       CustomFontAwesomeIconView.java
+|       |   |       
+|       |   +---dashboard
+|       |   |       ActivityEntryPopupFXML.fxml
+|       |   |       ActivityEntryPopupFXMLController.java
+|       |   |       DashboardFXML.fxml
+|       |   |       DashboardFXMLController.java
+|       |   |       MessageEntryCreationPopupFXML.fxml
+|       |   |       MessageEntryCreationPopupFXMLController.java
+|       |   |       MessageEntryPopupFXML.fxml
+|       |   |       MessageEntryPopupFXMLController.java
+|       |   |       
+|       |   \---journal
+|       |           JournalFXML.fxml
+|       |           JournalFXMLController.java
+|       |           ManualEntryCreationPopupFXML.fxml
+|       |           ManualEntryCreationPopupFXMLController.java
+|       |           ManualEntryShowMessagePopupFXML.fxml
+|       |           ManualEntryShowMessagePopupFXMLController.java
+|       |           MedicinalEntryCreationPopupFXML.fxml
+|       |           MedicinalEntryCreationPopupFXMLController.java
+|       |           MedicinalEntryShowMessagePopupFXML.fxml
+|       |           MedicinalEntryShowMessagePopupFXMLController.java
+|       |           
+|       +---resources
+|       |   |   monaco.ttf
+|       |   |   sanitaslogo.ico
+|       |   |   sanitaslogo.png
+|       |   |   
+|       |   \---login
+|       |           blur.png
+|       |           
+|       \---utils
+|           |   CustomDecorator.java
+|           |   StringUtils.java
+|           |   
+|           \---credentials
+|                   CredentialContainer.java
+|                   LoginPopupFXML.fxml
+|                   LoginPopupFXMLController.java
+|                   
++---launcher
+|       Launcher.java
+|       
+\---server
+    +---communication
+    |       ClientHandlerThread.java
+    |       DomainHandler.java
+    |       ServerController.java
+    |       
+    +---domain
+    |       DomainInterface.java
+    |       DomainInterfaceImpl.java
+    |       EmailHandler.java
+    |       
+    +---persistence
+    |       PersistanceInterface.java
+    |       PersistanceInterfaceImpl.java
+    |       
+    \---recources
+            ConfigReader.java
+            Database.config
+            README.txt
+            SMTP.config
+            

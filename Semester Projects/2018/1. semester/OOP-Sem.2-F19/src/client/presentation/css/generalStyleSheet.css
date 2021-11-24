@@ -1,0 +1,262 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09-Apr-2019, 10:14:12
+    Author     : Sanitas Solutions
+*/
+
+@font-face{
+    src: url("../resources/monaco.ttf");
+}
+
+* {
+    -fx-primary : #2E4057;
+    -fx-secondary : #048BA8;
+    -fx-background : #F4F4F4;
+}
+
+.glyph-icon
+{
+    -fx-fill: -fx-primary;
+}
+
+.button{
+    -fx-text-fill: -fx-primary;
+    -fx-background-color: -fx-secondary;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 5px;
+    -fx-font-size: 12pt;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 2, 0, 2, 2);
+}
+
+.button:hover, .button:focused{
+    -fx-text-fill: -fx-primary;
+    -fx-background-color: derive(-fx-secondary, -10%);
+}
+
+/*Login Screen Specific*/
+
+.jfx-spinner .arc 
+{
+    -fx-stroke: -fx-secondary;
+}
+
+.jfx-text-field, .jfx-password-field {
+    -fx-text-fill : derive(-fx-secondary, 40%);
+    -fx-prompt-text-fill: derive(-fx-secondary, -10%);
+    -jfx-focus-color: -fx-secondary;
+    -jfx-unfocus-color: derive(-fx-secondary, -10%);
+}
+
+.jfx-text-field:focused, .jfx-password-field:focused {
+    -fx-prompt-text-fill: -fx-secondary;
+    -jfx-unfocus-color: derive(-fx-secondary, -20%);
+}
+
+.wrong-credentials
+{
+    -fx-prompt-text-fill: #ef5350;
+    -jfx-unfocus-color: #ef5350;
+    -jfx-focus-color: #ef5350;
+    -fx-text-fill:#ef5350
+}
+
+/*Decorator*/
+.jfx-decorator .jfx-decorator-buttons-container {
+    -fx-background-color: -fx-primary;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+
+}
+
+.jfx-decorator .resize-border {
+    -fx-border-color: -fx-primary;
+    -fx-border-width: 0 4 4 4;
+}
+
+.jfx-decorator .jfx-decorator-title-container .jfx-decorator-text {
+    -fx-fill: -fx-secondary;
+    -fx-font-size: 25;
+}
+
+.jfx-decorator .jfx-decorator-title-container .jfx-svg-glyph {
+    -fx-shape: "M633,1C493.1,10.1,353.8,60.4,214.1,152.5c-69.4,45.7-141.5,105-195.7,160.9L.1,332.3l10,10.8c14,15.1,58.3,56.9,83.9,79.4C238.6,549.2,390.5,627.8,538.5,652.4c42.3,7,66,9,110.5,9,38.3.1,51.7-.7,84.5-4.9,100.6-12.9,198.5-48.2,296-106.8,87.6-52.6,176.7-128.7,242.9-207.5l7.8-9.3-1.9-2.2c-1.1-1.2-7.5-8.7-14.4-16.7C1152.8,184.1,1026.6,90.1,899.5,42.2,841.9,20.6,788.4,8.2,727,2.4,707.5.6,652.3-.2,633,1Zm42.1,58a291.28,291.28,0,0,1,153.4,62.7,273.23,273.23,0,0,1,73.4,91.6c9.1,18.4,13.7,30.4,18.7,48.6A266.13,266.13,0,0,1,916.9,414a261,261,0,0,1-32.4,66.5c-10.9,16.3-19.3,26.4-34.9,42-23.2,23.2-45,38.7-75.1,53.5-28,13.8-55,22.2-87.5,27.1-19.6,3-58,3.3-77.5.5-68-9.4-124.6-37.8-170.5-85.2-42.2-43.7-67.1-96.3-74.6-157.4-2-16.6-1.5-51.7,1.1-68,15.9-102.9,87.9-186.9,189-220.5,21.8-7.2,40.3-11.1,65.5-13.8C628,57.8,665.5,58.1,675.1,59ZM596.36,532V383.21h-150V280.48h150V131.65h100V280.48H846.75V383.21H696.36V532Z";
+    -jfx-size: 25;
+    -fx-background-color: -fx-secondary;
+}
+
+.jfx-decorator .button{
+    -fx-text-color: #ffffff;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+    -fx-font-size: 12pt;
+}
+
+.jfx-decorator .button:focused .button:hover .button:selected{
+    -fx-text-fill: #ffffff;
+    -fx-focus-color: transparent;
+    -fx-background-color: -fx-secondary;
+    -fx-faint-focus-color: -fx-secondary;
+    -fx-border-color: transparent;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+    -fx-font-size: 12pt;
+}
+
+
+
+/* Dashboad */
+.list-view {
+    -fx-font-family: Monaco;
+    -fx-background-color: derive(-fx-primary, -40%);
+    -fx-padding : 0px;
+    -fx-background-insets: 0;
+}
+
+.list-view:selected{
+    -fx-background-color: -fx-secondary;
+    -fx-padding : 0px;
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: derive(-fx-primary, -10%);
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: -fx-primary;
+}
+
+.list-view .list-cell {
+    -fx-background-color: derive(-fx-primary, -40%);
+    -fx-text-fill: white;
+}
+
+.list-view .label {
+    -fx-text-fill: -fx-secondary;
+}
+
+.list-view .jfx-rippler {
+    -jfx-rippler-fill: -fx-secondary;
+}
+
+.mylistview{
+    -fx-border-color:-fx-primary;
+}
+
+/* The main scrollbar CSS class of ListView */
+.scroll-bar:horizontal ,
+.scroll-bar:vertical{
+    -fx-background-color:-fx-primary;
+
+}
+
+/* The increment and decrement button CSS class of scrollbar */
+.increment-button ,.decrement-button {
+    -fx-background-color:transparent;
+}
+
+/* The main scrollbar **track** CSS class  */
+.scroll-bar:horizontal .track ,
+.scroll-bar:vertical .track{
+    -fx-background-color: -fx-primary;
+    -fx-border-color:-fx-primary;
+    -fx-background-radius: 0em;
+}
+
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color:-fx-secondary;
+    -fx-background-insets: 0, 0, 0;
+    -fx-background-radius: 0em;
+
+}
+
+/* ------------------------------------------------------------------------------------- */
+/** EVENT CSS **/
+/* ------------------------------------------------------------------------------------- */
+
+/* The main scrollbar **track** CSS class on event of "hover" and "pressed" */
+
+.scroll-bar:horizontal:hover .track ,
+.scroll-bar:horizontal:pressed .track ,
+.scroll-bar:vertical:hover .track,
+.scroll-bar:vertical:pressed .track{
+    -fx-background-color: -fx-primary;
+
+    -fx-opacity: 0.2;
+    -fx-background-radius: 0em;
+
+}
+
+/* The main scrollbar **thumb** CSS class on event of "hover" and "pressed" */
+.scroll-bar .thumb:hover,
+.scroll-bar .thumb:pressed{
+    -fx-background-color: derive(-fx-secondary, 20%);
+}
+
+.increment-button:hover ,.decrement-button:hover {
+    -fx-background-color: derive(-fx-secondary, 20%);
+    -fx-border-color: derive(-fx-secondary, 20%);
+}
+
+.text-area{
+    -fx-text-fill: -fx-secondary;
+}
+
+.text-area .content{
+    -fx-text-fill: -fx-secondary;
+    -fx-background-color: -fx-primary;
+}
+
+.jfx-combo-box .label{
+    -fx-text-fill: -fx-secondary;
+}
+
+.jfx-combo-box .list-cell {
+    -fx-text-fill: -fx-secondary;
+}
+
+.border-pane{
+    -fx-background-color: -fx-background;
+}
+
+.delete {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+}
+
+.delete:hover,
+.delete:selected,
+.delete:pressed{
+    -fx-background-color: derive(red, -40%);
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+}
+
+.context-menu {
+    -fx-background-color: -fx-primary;
+    -fx-text-fill: -fx-secondary;
+}
+
+.menu-item .label {
+    -fx-background-color: -fx-primary;
+    -fx-text-fill: -fx-secondary;
+}
+
+.menu-item:focused .label {
+    -fx-background-color: derive(-fx-primary, -20%);
+    -fx-text-fill: -fx-secondary;
+}
+
+.menu-item:focused{
+    -fx-background-color: derive(-fx-primary, -20%);
+}

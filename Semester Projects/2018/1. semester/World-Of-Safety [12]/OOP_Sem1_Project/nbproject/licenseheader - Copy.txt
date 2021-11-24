@@ -1,0 +1,9 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Developed by SDU OOP E18 SE/ST grp 21
+${licensePrefix}Frederik Alexander Hounsvad, Andreas Kaer Lauritzen,  Patrick Nielsen, Oliver Lind Nordestgaard, Benjamin Eichler Staugaard
+${licensePrefix}The use of this work is limited to educational purposes
+<#if licenseLast??>
+${licenseLast}
+</#if>

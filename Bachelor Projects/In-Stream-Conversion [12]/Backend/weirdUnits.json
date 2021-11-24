@@ -1,0 +1,1951 @@
+﻿[
+  {
+    "QuantityKinds": [ "MagneticDipoleMoment" ],
+    "UnitName": "Ampere Square Metre",
+    "SystemName": "A-M2",
+    "Description": "\"The SI unit of electromagnetic moment.\"^^rdf:HTML ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 1,
+      "Length": 2,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "GyromagneticRatio", "MagneticDipoleMoment" ],
+    "UnitName": "Ampere Square Metre Per Joule Second",
+    "SystemName": "A-M2-PER-J-SEC",
+    "Description": "\"The SI unit of gyromagnetic ratio.\"^^rdf:HTML ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 1,
+      "Length": 2,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "RichardsonConstant" ],
+    "UnitName": "Ampere per Square Metre Square Kelvin",
+    "SystemName": "A-PER-M2-K2",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "RF-Power", "SignalStrength" ],
+    "UnitName": "Bel",
+    "SystemName": "B",
+    "Description": "\"A logarithmic unit of sound pressure equal to 10 decibels (dB),  It is defined as: \\\\(1 B = (1/2) \\\\log_{10}(Np)\\\\)\"^^qudt:LatexString ;",
+    "Symbol": "B",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": -1,
+      "Length": 1,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": -3,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "ForcePerArea" ],
+    "UnitName": "Barad",
+    "SystemName": "BARAD",
+    "Description": "\"A barad is a dyne per square centimetre (\\\\(dyn \\\\cdot cm^{-2}\\\\)), and is equal to \\\\(0.1 Pa \\\\) (\\\\(1 \\\\, micro \\\\, bar\\\\), \\\\(0.000014504 \\\\, p.s.i.\\\\)). Note that this is precisely the microbar, the confusable bar being related in size to the normal atmospheric pressure, at \\\\(100\\\\,dyn \\\\cdot cm^{-2}\\\\). Accordingly barad was not abbreviated, so occurs prefixed as in \\\\(cbarad = centibarad\\\\). Despite being the coherent unit for pressure in c.g.s., barad was probably much less common than the non-coherent bar. Barad is sometimes called \\\\(barye\\\\), a name also used for \\\\(bar\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": -1,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": -2,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "Volume" ],
+    "UnitName": "Barrel",
+    "SystemName": "BBL",
+    "Description": "\"A barrel is one of several units of volume, with dry barrels, fluid barrels (UK beer barrel, U.S. beer barrel), oil barrel, etc. The volume of some barrel units is double others, with various volumes in the range of about 100-200 litres (22-44 imp gal; 26-53 US gal).\"^^rdf:HTML ;",
+    "Symbol": "bbl",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 3,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "HeartRate" ],
+    "UnitName": "Heart Beats per Minute",
+    "SystemName": "BEAT-PER-MIN",
+    "Description": "\"\\\"Heart Beat per Minute\\\" is a unit for  'Heart Rate' expressed as \\\\(BPM\\\\).\"^^qudt:LatexString ;",
+    "Symbol": "beats-per-min",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "RespiratoryRate" ],
+    "UnitName": "Breath per Minute",
+    "SystemName": "BREATH-PER-MIN",
+    "Description": "\"A unit of respiratory rate.\"^^rdf:HTML ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "CoefficientOfHeatTransfer" ],
+    "UnitName": "BTU per Square Foot Hour Degree Fahrenheit",
+    "SystemName": "BTU_IT-PER-FT2-HR-DEG_F",
+    "Description": "\"\\\\(\\\\textbf{BTU per Square Foot Hour Degree Fahrenheit} is an Imperial unit for 'Coefficient Of Heat Transfer' expressed as \\\\(Btu/(hr-ft^{2}-degF)\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": -1,
+      "Time": -3,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "CoefficientOfHeatTransfer" ],
+    "UnitName": "BTU per Square Foot Second Degree Fahrenheit",
+    "SystemName": "BTU_IT-PER-FT2-SEC-DEG_F",
+    "Description": "\"\\\\(\\\\textbf{BTU per Square Foot Second Degree Fahrenheit} is an Imperial unit for 'Coefficient Of Heat Transfer' expressed as \\\\(Btu/(ft^{2}-s-degF)\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": -1,
+      "Time": -3,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "SpecificHeatCapacity" ],
+    "UnitName": "BTU per Pound Degree Fahrenheit",
+    "SystemName": "BTU_IT-PER-LB-DEG_F",
+    "Description": "\"British Thermal Unit (therm.) Per Pound Per Fahrenheit Degree (Btu (therm.)/lb- degF) is a unit in the category of Specific heat. This unit is commonly used in the UK unit system. British Thermal Unit (therm.) Per Pound Per Fahrenheit Degree (Btu (therm.)/lb-degF) has a dimension of \\\\(L2T^{-2}Q^{-1}\\\\) where \\\\(L\\\\) is length, \\\\(T\\\\) is time, and \\\\(Q\\\\) is temperature. It can be converted to the corresponding standard SI unit \\\\(J/kg-K\\\\) by multiplying its value by a factor of 4183.99895.\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 2,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": -1,
+      "Time": -2,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "SpecificHeatCapacity" ],
+    "UnitName": "BTU per Pound Degree Rankine",
+    "SystemName": "BTU_IT-PER-LB-DEG_R",
+    "Description": "\"\\\\(\\\\textbf{BTU per Pound Degree Rankine} is a unit for 'Specific Heat Capacity' expressed as \\\\(Btu/(lb-degR)\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 2,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": -1,
+      "Time": -2,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "EnergyPerMassAmountOfSubstance" ],
+    "UnitName": "BTU per Pound Mole",
+    "SystemName": "BTU_IT-PER-LB-MOL",
+    "Description": "\"\\\\(\\\\textbf{BTU per Pound Mole} is an Imperial unit for \\\\textit{'Energy And Work Per Mass Amount Of Substance'} expressed as \\\\(Btu/(lb-mol)\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 2,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": -2,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "MolarHeatCapacity" ],
+    "UnitName": "BTU per Pound Mole Degree Fahrenheit",
+    "SystemName": "BTU_IT-PER-MOL-DEG_F",
+    "Description": "\"\\\\(\\\\textbf{BTU per Pound Mole Degree Fahrenheit} is an Imperial unit for \\\\textit{'Molar Heat Capacity'} expressed as \\\\(Btu/(lb-mol-degF)\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": -1,
+      "ElectricCurrent": 0,
+      "Length": 2,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": -1,
+      "Time": -2,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "ExposureRate" ],
+    "UnitName": "Coulomb Per Kilogram Second",
+    "SystemName": "C-PER-KiloGM-SEC",
+    "Description": "\"The SI unit of exposure rate\"^^rdf:HTML ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 1,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": -1,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "MicrobialFormation" ],
+    "UnitName": "Colony Forming Unit",
+    "SystemName": "CFU",
+    "Description": "\"\\\"Colony Forming Unit\\\" is a unit for  'Microbial Formation' expressed as \\\\(CFU\\\\).\"^^qudt:LatexString ;",
+    "Symbol": "CFU",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "ForcePerArea" ],
+    "UnitName": "Centimetre of Water",
+    "SystemName": "CM_H2O",
+    "Description": null,
+    "Symbol": "cmH2O",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": -1,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": -2,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "LengthTemperatureTime" ],
+    "UnitName": "Centimetre Second Degree Celsius",
+    "SystemName": "CentiM-SEC-DEG_C",
+    "Description": "\"\\\\(\\\\textbf{Centimeter Second Degree Celsius} is a C.G.S System unit for 'Length Temperature Time' expressed as \\\\(cm-s-degC\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "Time" ],
+    "UnitName": "Sidereal Day",
+    "SystemName": "DAY_Sidereal",
+    "Description": "\"The length of time which passes between a given fixed star in the sky crossing a given projected meridian (line of longitude). The sidereal day is \\\\(23 h 56 m 4.1 s\\\\), slightly shorter than the solar day because the Earth 's orbital motion about the Sun  means the Earth  has to rotate slightly more than one turn with respect to the \\\"fixed\\\" stars in order to reach the same Earth-Sun orientation. Another way of thinking about the difference is that it amounts to \\\\(1/365.2425^{th}\\\\) of a day per day, since even if the Earth  did not spin on its axis at all, the Sun  would appear to make one rotation around the Earth  as the Earth  completed a single orbit (which takes one year).\"^^qudt:LatexString ;",
+    "Symbol": "d",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "Dimensionless" ],
+    "UnitName": "Dec",
+    "SystemName": "DECADE",
+    "Description": "\"One decade is a factor of 10 difference between two numbers (an order of magnitude difference) measured on a logarithmic scale. It is especially useful when referring to frequencies and when describing frequency response of electronic systems, such as audio amplifiers and filters. The factor-of-ten in a decade can be in either direction: so one decade up from 100 Hz is 1000 Hz, and one decade down is 10 Hz. The factor-of-ten is what is important, not the unit used, so \\\\(3.14 rad/s\\\\) is one decade down from \\\\(31.4 rad/s\\\\).\"^^qudt:LatexString ;",
+    "Symbol": "oct",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 1
+    }
+  },
+  {
+    "QuantityKinds": [ "LengthTemperature" ],
+    "UnitName": "Degree Celsius Centimetre",
+    "SystemName": "DEG_C-CentiM",
+    "Description": "\"\\\\(\\\\textbf{Degree Celsius Centimeter} is a C.G.S System unit for 'Length Temperature' expressed as \\\\(cm-degC\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 1,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 1,
+      "Time": 0,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "TemperaturePerTime" ],
+    "UnitName": "Degree Celsius per Hour",
+    "SystemName": "DEG_C-PER-HR",
+    "Description": "\"\\\\(\\\\textbf{Degree Celsius per Hour} is a unit for 'Temperature Per Time' expressed as \\\\(degC / hr\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 1,
+      "Time": -1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "TemperaturePerTime" ],
+    "UnitName": "Degree Celsius per Minute",
+    "SystemName": "DEG_C-PER-MIN",
+    "Description": "\"\\\\(\\\\textbf{Degree Celsius per Minute} is a unit for 'Temperature Per Time' expressed as \\\\(degC / m\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 1,
+      "Time": -1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "TemperaturePerTime" ],
+    "UnitName": "Degree Celsius per Second",
+    "SystemName": "DEG_C-PER-SEC",
+    "Description": "\"\\\\(\\\\textbf{Degree Celsius per Second} is a unit for 'Temperature Per Time' expressed as \\\\(degC / s\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 1,
+      "Time": -1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "ThermalResistivity" ],
+    "UnitName": "Degree Fahrenheit Hour",
+    "SystemName": "DEG_F-HR",
+    "Description": "\"\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": -1,
+      "LuminousIntensity": 0,
+      "Mass": -1,
+      "Temperature": 1,
+      "Time": 3,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "ThermalResistance" ],
+    "UnitName": "Degree Fahrenheit Hour per BTU",
+    "SystemName": "DEG_F-HR-PER-BTU_IT",
+    "Description": "\"\\\\(\\\\textbf{Degree Fahrenheit Hour per BTU} is an Imperial unit for 'Thermal Resistance' expressed as \\\\(degF-hr/Btu\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": -2,
+      "LuminousIntensity": 0,
+      "Mass": -1,
+      "Temperature": 1,
+      "Time": 3,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "TemperaturePerTime" ],
+    "UnitName": "Degree Fahrenheit per Hour",
+    "SystemName": "DEG_F-PER-HR",
+    "Description": "\"\\\\(\\\\textbf{Degree Fahrenheit per Hour} is a unit for 'Temperature Per Time' expressed as \\\\(degF / h\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 1,
+      "Time": -1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "TemperaturePerTime" ],
+    "UnitName": "Degree Fahrenheit per Minute",
+    "SystemName": "DEG_F-PER-MIN",
+    "Description": "\"\\\\(\\\\textbf{Degree Fahrenheit per Minute} is a unit for 'Temperature Per Time' expressed as \\\\(degF / m\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 1,
+      "Time": -1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "TemperaturePerTime" ],
+    "UnitName": "Degree Fahrenheit per Second",
+    "SystemName": "DEG_F-PER-SEC",
+    "Description": "\"\\\\(\\\\textbf{Degree Fahrenheit per Second} is a unit for 'Temperature Per Time' expressed as \\\\(degF / s\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 1,
+      "Time": -1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "TemperaturePerTime" ],
+    "UnitName": "Degree Fahrenheit per Square Second",
+    "SystemName": "DEG_F-PER-SEC2",
+    "Description": "\"'Degree Fahrenheit per Square Second' is a unit for expressing the acceleration of a temperature expressed as 'degF /s2'.\" ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 1,
+      "Time": -1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "TemperaturePerTime" ],
+    "UnitName": "Degree Rankine per Hour",
+    "SystemName": "DEG_R-PER-HR",
+    "Description": "\"\\\\(A rate of change of temperature measured in degree Rankine in periods of one hour.\\\\)\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 1,
+      "Time": -1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "TemperaturePerTime" ],
+    "UnitName": "Degree Rankine per Minute",
+    "SystemName": "DEG_R-PER-MIN",
+    "Description": "\"\\\\(A rate of change of temperature measured in degree Rankine in periods of one minute\\\\)\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 1,
+      "Time": -1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "TemperaturePerTime" ],
+    "UnitName": "Degree Rankine per Second",
+    "SystemName": "DEG_R-PER-SEC",
+    "Description": "\"\\\\(A rate of change of temperature measured in degree Rankine in periods of one second.\\\\)\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 1,
+      "Time": -1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "RF-Power", "SignalStrength", "SoundExposureLevel", "SoundPowerLevel", "SoundPressureLevel", "SoundReductionIndex" ],
+    "UnitName": "Decibel",
+    "SystemName": "DeciB",
+    "Description": "\"A customary logarithmic measure most commonly used (in various ways) for measuring sound.Sound is measured on a logarithmic scale. Informally, if one sound is \\\\(1\\\\,bel\\\\) (10 decibels) \\\"louder\\\" than another, this means the louder sound is 10 times louder than the fainter one. A difference of 20 decibels corresponds to an increase of 10 x 10 or 100 times in intensity. The beginning of the scale, 0 decibels, can be set in different ways, depending on exactly the aspect of sound being measured. For sound intensity (the power of the sound waves per unit of area) \\\\(0\\\\,decibel\\\\) is equal to \\\\(1\\\\,picoWatts\\\\,per\\\\,Metre\\\\,Squared\\\\). This corresponds approximately to the faintest sound that can be detected by a person who has good hearing. For sound pressure (the pressure exerted by the sound waves) 0 decibels equals \\\\(20\\\\,micropascals\\\\,RMS\\\\), and for sound power \\\\(0\\\\,decibels\\\\) sometimes equals \\\\(1\\\\,picoWatt\\\\). In all cases, one decibel equals \\\\(\\\\approx\\\\,0.115129\\\\,neper\\\\).\"^^qudt:LatexString ;",
+    "Symbol": "dB",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": -1,
+      "Length": 1,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": -3,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "SignalDetectionThreshold" ],
+    "UnitName": "Decibel Carrier Unit",
+    "SystemName": "DeciB_C",
+    "Description": "\"\\\"Decibel Carrier Unit\\\" is a unit for  'Signal Detection Threshold' expressed as \\\\(dBc\\\\).\"^^qudt:LatexString ;",
+    "Symbol": "dBc",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "DimensionlessRatio" ],
+    "UnitName": "Decibel Referred to 1mw",
+    "SystemName": "DeciB_M",
+    "Description": "\"\\\"Decibel Referred to 1mw\\\" is a  'Dimensionless Ratio' expressed as \\\\(dBm\\\\).\"^^qudt:LatexString ;",
+    "Symbol": "dBm",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 1
+    }
+  },
+  {
+    "QuantityKinds": [],
+    "UnitName": null,
+    "SystemName": "DeciTONNE",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "Mass" ],
+    "UnitName": "Earth mass",
+    "SystemName": "EarthMass",
+    "Description": "\"Earth mass (\\\\(M_{\\\\oplus}\\\\)) is the unit of mass equal to that of the Earth. In SI Units, \\\\(1 M_{\\\\oplus} = 5.9722 \\\\times 1024 kg\\\\). Earth mass is often used to describe masses of rocky terrestrial planets. The four terrestrial planets of the Solar System, Mercury, Venus, Earth, and Mars, have masses of 0.055, 0.815, 1.000, and 0.107 Earth masses respectively.\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "LuminousFluxPerArea" ],
+    "UnitName": "Foot Candle",
+    "SystemName": "FC",
+    "Description": "\"\\\"Foot Candle\\\" is a unit for  'Luminous Flux Per Area' expressed as \\\\(fc\\\\).\"^^qudt:LatexString ;",
+    "Symbol": "fc",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": -2,
+      "LuminousIntensity": 1,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "ElectricCharge" ],
+    "UnitName": "Franklin",
+    "SystemName": "FR",
+    "Description": "\"\\\"Franklin\\\" is a unit for  'Electric Charge' expressed as \\\\(Fr\\\\).\"^^qudt:LatexString ;",
+    "Symbol": "Fr",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 1,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "VideoFrameRate" ],
+    "UnitName": "Frame per Second",
+    "SystemName": "FRAME-PER-SEC",
+    "Description": "\"\\\"Frame per Second\\\" is a unit for  'Video Frame Rate' expressed as \\\\(fps\\\\).\"^^qudt:LatexString ;",
+    "Symbol": "fps",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": -1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "EnergyPerArea" ],
+    "UnitName": "Foot Pound Force per Square Metre",
+    "SystemName": "FT-LB_F-PER-M2",
+    "Description": "\"\\\"Foot Pound Force per Square Meter\\\" is a unit for  'Energy Per Area' expressed as \\\\(ft-lbf/m^{2}\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": -2,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "AngularMomentum" ],
+    "UnitName": "Foot Pound Force Second",
+    "SystemName": "FT-LB_F-SEC",
+    "Description": "\"\\\"Foot Pound Force Second\\\" is a unit for  'Angular Momentum' expressed as \\\\(lbf / s\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 2,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": -1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "AreaTemperature" ],
+    "UnitName": "Square Foot Degree Fahrenheit",
+    "SystemName": "FT2-DEG_F",
+    "Description": "\"\\\\(\\\\textbf{Square Foot Degree Fahrenheit} is an Imperial unit for 'Area Temperature' expressed as \\\\(ft^{2}-degF\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 2,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 1,
+      "Time": 0,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "AreaTimeTemperature" ],
+    "UnitName": "Square Foot Hour Degree Fahrenheit",
+    "SystemName": "FT2-HR-DEG_F",
+    "Description": "\"\\\\(\\\\textbf{Square Foot Hour Degree Fahrenheit} is an Imperial unit for 'Area Time Temperature' expressed as \\\\(ft^{2}-hr-degF\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 2,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 1,
+      "Time": 1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "ThermalInsulance" ],
+    "UnitName": "Square Foot Hour Degree Fahrenheit per BTU",
+    "SystemName": "FT2-HR-DEG_F-PER-BTU_IT",
+    "Description": "\"\\\\(\\\\textbf{Square Foot Hour Degree Fahrenheit per BTU} is an Imperial unit for 'Thermal Insulance' expressed as \\\\((degF-hr-ft^{2})/Btu\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": -1,
+      "Temperature": 1,
+      "Time": 3,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "AreaTimeTemperature" ],
+    "UnitName": "Square Foot Second Degree Fahrenheit",
+    "SystemName": "FT2-SEC-DEG_F",
+    "Description": "\"\\\\(\\\\textbf{Square Foot Second Degree Fahrenheit} is an Imperial unit for 'Area Time Temperature' expressed as \\\\(ft^{2}\\\\cdot s\\\\cdot degF\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 2,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 1,
+      "Time": 1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "ForcePerArea" ],
+    "UnitName": "Foot of Water",
+    "SystemName": "FT_H2O",
+    "Description": "\"\\\"Foot of Water\\\" is a unit for  'Force Per Area' expressed as \\\\(ftH2O\\\\).\"^^qudt:LatexString ;",
+    "Symbol": "ftH2O",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": -1,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": -2,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "Length" ],
+    "UnitName": "Long Furlong",
+    "SystemName": "FUR_Long",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 1,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "MassTemperature" ],
+    "UnitName": "Gram Degree Celsius",
+    "SystemName": "GM-PER-DEG_C",
+    "Description": "\"\\\\(\\\\textbf{Gram Degree Celsius} is a C.G.S System unit for 'Mass Temperature' expressed as \\\\(g \\\\cdot degC\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 1,
+      "Time": 0,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "DimensionlessRatio" ],
+    "UnitName": "Grade",
+    "SystemName": "GR",
+    "Description": "\"the tangent of an angle of inclination multiplied by 100\"^^rdf:HTML ;",
+    "Symbol": "gr",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 1
+    }
+  },
+  {
+    "QuantityKinds": [ "MagneticField", "MagneticFluxDensity" ],
+    "UnitName": "Gamma",
+    "SystemName": "Gamma",
+    "Description": "\"\\\"Gamma\\\" is a C.G.S System unit for  'Magnetic Field'.\"^^rdf:HTML ;",
+    "Symbol": "γ",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": -1,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": -2,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "Power" ],
+    "UnitName": "Horsepower Metric",
+    "SystemName": "HP-PER-M",
+    "Description": "\"\\\"Horsepower Metric\\\" is a unit for  'Power' expressed as \\\\(hp/m\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 2,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": -3,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "Power" ],
+    "UnitName": "Horsepower Electric",
+    "SystemName": "HP-PER-V",
+    "Description": "\"\\\"Horsepower Electric\\\" is a unit for  'Power' expressed as \\\\(hp/V\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 2,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": -3,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "Time" ],
+    "UnitName": "Sidereal Hour",
+    "SystemName": "HR_Sidereal",
+    "Description": "\"Sidereal time is a time-keeping system astronomers use to keep track of the direction to point their telescopes to view a given star in the night sky. A mean sidereal day is about 23 h 56 m 4.1 s in length. However, due to variations in the rotation rate of the Earth, the rate of an ideal sidereal clock deviates from any simple multiple of a civil clock. In practice, the difference is kept track of by the difference UTC-UT1, which is measured by radio telescopes and kept on file and available to the public at the IERS and at the United States Naval Observatory. A Sidereal Hour is \\\\(1/24^{th}\\\\) of a Sidereal Day. A mean sidereal day is 23 hours, 56 minutes, 4.0916 seconds (23.9344699 hours or 0.99726958 mean solar days), the time it takes Earth to make one rotation relative to the vernal equinox. (Due to nutation, an actual sidereal day is not quite so constant.) The vernal equinox itself precesses slowly westward relative to the fixed stars, completing one revolution in about 26,000 years, so the misnamed sidereal day (\\\"sidereal\\\" is derived from the Latin sidus meaning \\\"star\\\") is 0.0084 seconds shorter than Earth's period of rotation relative to the fixed stars.\"^^qudt:LatexString ;",
+    "Symbol": "hr",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "AmountOfSubstance" ],
+    "UnitName": "International Unit",
+    "SystemName": "IU",
+    "Description": "\"<p><strong>International Unit</strong> is a unit for \\\\textit{'Amount Of Substance'} expressed as \\\\(IU\\\\)</p>.\"^^qudt:LatexString ;",
+    "Symbol": "IU",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 1,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "SerumOrPlasmaLevel" ],
+    "UnitName": "International Unit per Litre",
+    "SystemName": "IU-PER-L",
+    "Description": "\"\\\"International Unit per Liter\\\" is a unit for  'Serum Or Plasma Level' expressed as \\\\(IU/L\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "ThermalConductivity" ],
+    "UnitName": "Kilocalorie per Centimetre Second Degree Celsius",
+    "SystemName": "KiloCAL-PER-CentiM-SEC-DEG_C",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 1,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": -1,
+      "Time": -3,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "SpecificHeatCapacity" ],
+    "UnitName": "Calorie per Gram Degree Celsius",
+    "SystemName": "KiloCAL-PER-GM-DEG_C",
+    "Description": "\"\\\\(\\\\textbf{Calorie per Gram Degree Celsius} is a unit for 'Specific Heat Capacity' expressed as \\\\(kcal/(gm-degC)\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 2,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": -1,
+      "Time": -2,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "MolarEnergy" ],
+    "UnitName": "Kilocalorie per Mole",
+    "SystemName": "KiloCAL-PER-MOL",
+    "Description": "\"The kilocalorie per mole is a derived unit of energy per Avogadro's number of particles. It is the quotient of a kilocalorie (1000 thermochemical gram calories) and a mole, mainly used in the United States. In SI units, it is equal to \\\\(4.184 kJ/mol\\\\), or \\\\(6.9477 \\\\times 10 J per molecule\\\\). At room temperature it is equal to 1.688 . Physical quantities measured in \\\\(kcal\\\\cdot mol\\\\) are usually thermodynamical quantities; mostly free energies such as: Heat of vaporization Heat of fusion</p>.\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": -1,
+      "ElectricCurrent": 0,
+      "Length": 2,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": -2,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "MolarHeatCapacity" ],
+    "UnitName": "Kilocalorie per Mole Degree Celsius",
+    "SystemName": "KiloCAL-PER-MOL-DEG_C",
+    "Description": "\"\\\\(\\\\textbf{Kilocalorie per Mole Degree Celsius} is a unit for 'Molar Heat Capacity' expressed as \\\\(kcal/(mol-degC)\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": -1,
+      "ElectricCurrent": 0,
+      "Length": 2,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": -1,
+      "Time": -2,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [],
+    "UnitName": null,
+    "SystemName": "KiloTONNE",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "MassTemperature" ],
+    "UnitName": "Pound Degree Fahrenheit",
+    "SystemName": "LB-DEG_F",
+    "Description": "\"\\\\(\\\\textbf{Pound Degree Fahrenheit} is an Imperial unit for 'Mass Temperature' expressed as \\\\(lb-degF\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 1,
+      "Time": 0,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "MassTemperature" ],
+    "UnitName": "Pound Degree Rankine",
+    "SystemName": "LB-DEG_R",
+    "Description": "\"\\\\(\\\\textbf{Pound Degree Rankine} is an Imperial unit for 'Mass Temperature' expressed as \\\\(lb-degR\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 1,
+      "Time": 0,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "MassAmountOfSubstanceTemperature" ],
+    "UnitName": "Pound Mole Degree Fahrenheit",
+    "SystemName": "LB-MOL-DEG_F",
+    "Description": "\"\\\\(\\\\textbf{Pound Mole Degree Fahrenheit} is a unit for 'Mass Amount Of Substance Temperature' expressed as \\\\(lb-mol-degF\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "LuminousEnergy" ],
+    "UnitName": "lumen second",
+    "SystemName": "LM-SEC",
+    "Description": "\"In photometry, the lumen second is the SI derived unit of luminous energy. It is based on the lumen, the SI unit of luminous flux, and the second, the SI base unit of time.  The lumen second is sometimes called the talbot (symbol T).  An older name for the lumen second was the lumberg.\"^^rdf:HTML ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "Mass" ],
+    "UnitName": "Lunar mass",
+    "SystemName": "LunarMass",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "HallCoefficient" ],
+    "UnitName": "Cubic Metre per Coulomb",
+    "SystemName": "M3-PER-C",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "MachNumber" ],
+    "UnitName": "Mach",
+    "SystemName": "MACH",
+    "Description": "\"\\\"Mach\\\" is a unit for  'Dimensionless Ratio' expressed as \\\\(mach\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 1
+    }
+  },
+  {
+    "QuantityKinds": [ "Area" ],
+    "UnitName": "Circular Mil",
+    "SystemName": "MIL_Circ",
+    "Description": "\"A circular mil is a unit of area, equal to the area of a circle with a diameter of one mil (one thousandth of an inch). It is a convenient unit for referring to the area of a wire with a circular cross section, because the area in circular mils can be calculated without reference to pi (\\\\(\\\\pi\\\\)). The area in circular mils, A, of a circle with a diameter of d mils, is given by the formula: Electricians in Canada and the United States are familiar with the circular mil because the National Electrical Code (NEC) uses the circular mil to define wire sizes larger than 0000 AWG. In many NEC publications and uses, large wires may be expressed in thousands of circular mils, which is abbreviated in two different ways: MCM or kcmil. For example, one common wire size used in the NEC has a cross-section of 250,000 circular mils, written as 250 kcmil or 250 MCM, which is the first size larger than 0000 AWG used within the NEC. \"^^qudt:LatexString ;",
+    "Symbol": "cmil",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 2,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "Time" ],
+    "UnitName": "Sidereal Minute",
+    "SystemName": "MIN_Sidereal",
+    "Description": "\"Sidereal time is a time-keeping system astronomers use to keep track of the direction to point their telescopes to view a given star in the night sky. A mean sidereal day is about \\\\(23 h 56 m 4.1 s\\\\) in length. However, due to variations in the rotation rate of the Earth, the rate of an ideal sidereal clock deviates from any simple multiple of a civil clock. In practice, the difference is kept track of by the difference UTC-UT1, which is measured by radio telescopes and kept on file and available to the public at the IERS and at the United States Naval Observatory. A Sidereal Minute is \\\\(1/60^{th}\\\\) of a Sidereal Hour, which is \\\\(1/24^{th}\\\\) of a Sidereal Day.\"^^qudt:LatexString ;",
+    "Symbol": "min",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "Velocity" ],
+    "UnitName": "Nautical Mile per Hour",
+    "SystemName": "MI_N-PER-HR",
+    "Description": "\"The knot is a unit of speed equal to one nautical mile (1.852 km) per hour, approximately 1.151 mph. The abbreviation kn is preferred by the International Hydrographic Organization (IHO), which includes every major seafaring nation; but the abbreviations kt (singular) and kts (plural) are also widely used conflicting with the SI symbol for kilotonne which is also \\\"kt\\\". The knot is a non-SI unit accepted for use with the International System of Units (SI). Worldwide, the knot is used in meteorology, and in maritime and air navigation-for example, a vessel travelling at 1 knot along a meridian travels one minute of geographic latitude in one hour. \"^^rdf:HTML ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 1,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": -1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "Velocity" ],
+    "UnitName": "Nautical Mile per Minute",
+    "SystemName": "MI_N-PER-MIN",
+    "Description": "\"\"\"The SI derived unit for speed is the meter/second. 1 meter/second is equal to 0.0323974082073 nautical mile per minute. \"\"\"^^rdf:HTML ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 1,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": -1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "TemperatureAmountOfSubstance" ],
+    "UnitName": "Mole Degree Celsius",
+    "SystemName": "MOL-DEG_C",
+    "Description": "\"\\\\(\\\\textbf{Mole Degree Celsius} is a C.G.S System unit for 'Temperature Amount Of Substance' expressed as \\\\(mol-degC\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 1,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 1,
+      "Time": 0,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "Time" ],
+    "UnitName": "Mean Gregorian Month",
+    "SystemName": "MO_MeanGREGORIAN",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "Time" ],
+    "UnitName": "Mean Julian Month",
+    "SystemName": "MO_MeanJulian",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "Time" ],
+    "UnitName": "Synodic month",
+    "SystemName": "MO_Synodic",
+    "Description": "\"A unit of time corresponding approximately to one cycle of the moon's phases, or about 30 days or 4 weeks and calculated as 29.53059 days.\"^^rdf:HTML ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "DataRate" ],
+    "UnitName": "Megabit per Second",
+    "SystemName": "MegaBIT-PER-SEC",
+    "Description": "\"A megabit per second (Mbit/s or Mb/s; not to be confused with mbit/s which means millibit per second, or with Mbitps which means megabit picosecond) is a unit of data transfer rate equal to 1,000,000 bits per second or 1,000 kilobits per second or 125,000 bytes per second or 125 kilobytes per second.\"^^rdf:HTML ;",
+    "Symbol": "mbps",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": -1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "LinearMomentum" ],
+    "UnitName": "Mega Electron Volt per Speed of Light",
+    "SystemName": "MegaEV-PER-SpeedOfLight",
+    "Description": "\"\\\"Mega Electron Volt per Speed of Light\\\" is a unit for  'Linear Momentum' expressed as \\\\(MeV/c\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 1,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": -1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "Power" ],
+    "UnitName": "MegaW",
+    "SystemName": "MegaW",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 2,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": -3,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "Length" ],
+    "UnitName": "Mil Length",
+    "SystemName": "MilLength",
+    "Description": "\"\\\"Mil Length\\\" is a C.G.S System unit for  'Length' expressed as \\\\(mil\\\\).\"^^qudt:LatexString ;",
+    "Symbol": "mil",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 1,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "ForcePerArea" ],
+    "UnitName": "Millimetre of Mercury - Absolute",
+    "SystemName": "MilliM_HGA",
+    "Description": "\"Millimeters of Mercury inclusive of atmospheric pressure\"^^rdf:HTML ;",
+    "Symbol": "mmHgA",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": -1,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": -2,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "Power" ],
+    "UnitName": "MilliW",
+    "SystemName": "MilliW",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 2,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": -3,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "Dimensionless" ],
+    "UnitName": "Neper",
+    "SystemName": "NP",
+    "Description": "\"The neper is a logarithmic unit for ratios of measurements of physical field and power quantities, such as gain and loss of electronic signals. It has the unit symbol Np. The unit's name is derived from the name of John Napier, the inventor of logarithms. As is the case for the decibel and bel, the neper is not a unit in the International System of Units (SI), but it is accepted for use alongside the SI. Like the decibel, the neper is a unit in a logarithmic scale. While the bel uses the decadic (base-10) logarithm to compute ratios, the neper uses the natural logarithm, based on Euler's number\"^^rdf:HTML ;",
+    "Symbol": "Np",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 1
+    }
+  },
+  {
+    "QuantityKinds": [ "Turbidity" ],
+    "UnitName": "Nephelometry Turbidity Unit",
+    "SystemName": "NTU",
+    "Description": "\"\\\"Nephelometry Turbidity Unit\\\" is a C.G.S System unit for  'Turbidity' expressed as \\\\(NTU\\\\).\"^^qudt:LatexString ;",
+    "Symbol": "NTU",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "Dimensionless" ],
+    "UnitName": "Number",
+    "SystemName": "NUM",
+    "Description": "\"\\\"Number\\\" is a unit for  'Dimensionless' expressed as (\\\\#\\\\).\"^^rdf:HTML ;",
+    "Symbol": "#",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 1
+    }
+  },
+  {
+    "QuantityKinds": [ "Frequency" ],
+    "UnitName": "Number per Year",
+    "SystemName": "NUM-PER-YR",
+    "Description": "\"\\\"Number per Year\\\" is a unit for  'Frequency' expressed as \\\\(\\\\#/yr\\\\).\"^^qudt:LatexString ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": -1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "Dimensionless" ],
+    "UnitName": "Oct",
+    "SystemName": "OCT",
+    "Description": "\"An octave is a doubling or halving of a frequency.  One oct is the logarithmic frequency interval between \\\\(f1\\\\) and \\\\(f2\\\\) when \\\\(f2/f1 = 2\\\\).\"^^qudt:LatexString ;",
+    "Symbol": "oct",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 1
+    }
+  },
+  {
+    "QuantityKinds": [ "ResidualResistivity", "Resistivity" ],
+    "UnitName": "Ohm Metre",
+    "SystemName": "OHM-M",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "PressureCoefficient" ],
+    "UnitName": "Pascal per Kelvin",
+    "SystemName": "PA-PER-K",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "Length" ],
+    "UnitName": "Pica",
+    "SystemName": "PCA",
+    "Description": "\"A pica is a typographic unit of measure corresponding to 1/72 of its respective foot, and therefore to 1/6 of an inch. The pica contains 12 point units of measure. Notably, Adobe PostScript promoted the pica unit of measure that is the standard in contemporary printing, as in home computers and printers. Usually, pica measurements are represented with an upper-case 'P' with an upper-right-to-lower-left virgule (slash) starting in the upper right portion of the 'P' and ending at the lower left of the upright portion of the 'P'; essentially drawing a virgule (/) through a 'P'.  Note that these definitions are different from a typewriter's pica setting, which denotes a type size of ten characters per horizontal inch.\"^^rdf:HTML ;",
+    "Symbol": "PCA",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 1,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "EnergyDensityOfStates" ],
+    "UnitName": "Reciprocal Joule Cubic Metre",
+    "SystemName": "PER-J-M3",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "InverseMagneticFlux" ],
+    "UnitName": "Reciprocal Weber",
+    "SystemName": "PER-WB",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 1,
+      "Length": -2,
+      "LuminousIntensity": 0,
+      "Mass": -1,
+      "Temperature": 0,
+      "Time": 2,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "DimensionlessRatio" ],
+    "UnitName": "Percent",
+    "SystemName": "PERCENT",
+    "Description": "\"\\\"Percent\\\" is a unit for  'Dimensionless Ratio' expressed as \\\\(\\\\%\\\\).\"^^qudt:LatexString ;",
+    "Symbol": "%",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 1
+    }
+  },
+  {
+    "QuantityKinds": [],
+    "UnitName": "Acidity",
+    "SystemName": "PH",
+    "Description": "\"the negative decadic logarithmus of the concentration of free protons (or hydronium ions) expressed in 1 mol/l.\"@en ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 1
+    }
+  },
+  {
+    "QuantityKinds": [],
+    "UnitName": "Practical salinity unit\" ;",
+    "SystemName": "PSU",
+    "Description": "\"Practical salinity scale 1978 (PSS-78) is used for ionic content of seawater determined by electrical conductivity. Salinities measured using PSS-78 do not have units, but are approximately scaled to parts-per-thousand for the valid range. The suffix psu or PSU (denoting practical salinity unit) is sometimes added to PSS-78 measurement values. The addition of PSU as a unit after the value is \\\"formally incorrect and strongly discouraged\\\".\" ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 1
+    }
+  },
+  {
+    "QuantityKinds": [ "AngularVelocity" ],
+    "UnitName": "Planck Angular Frequency",
+    "SystemName": "PlanckFrequency_Ang",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": -1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "Temperature", "ThermodynamicTemperature" ],
+    "UnitName": "PlanckTemperature",
+    "SystemName": "PlanckTemperature",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 1,
+      "Time": 0,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "SpecificOpticalRotatoryPower" ],
+    "UnitName": "Radian Square Metre per Kilogram",
+    "SystemName": "RAD-M2-PER-KiloGM",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "MolarOpticalRotatoryPower" ],
+    "UnitName": "Radian Square Metre per Mole",
+    "SystemName": "RAD-M2-PER-MOL",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "MolarConductivity" ],
+    "UnitName": "Siemens Square metre per mole",
+    "SystemName": "S-M2-PER-MOL",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 2,
+      "Length": -3,
+      "LuminousIntensity": 0,
+      "Mass": -1,
+      "Temperature": 0,
+      "Time": 3,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "Frequency" ],
+    "UnitName": "Sample per second",
+    "SystemName": "SAMPLE-PER-SEC",
+    "Description": "\"The number of discrete samples of some thing per second.\"^^rdf:HTML ;",
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": -1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "DensityOfStates" ],
+    "UnitName": "Second per Radian Cubic Metre",
+    "SystemName": "SEC-PER-RAD-M3",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "Mass" ],
+    "UnitName": "Solar mass",
+    "SystemName": "SolarMass",
+    "Description": "\"The astronomical unit of mass is the solar mass.The symbol \\\\(S\\\\) is often used in astronomy to refer to this unit, although \\\\(M_{\\\\odot}\\\\) is also common. The solar mass, \\\\(1.98892 \\\\time 1030 kg\\\\), is a standard way to express mass in astronomy, used to describe the masses of other stars and galaxies. It is equal to the mass of the Sun, about 333,000 times the mass of the Earth or 1,048 times the mass of Jupiter. In practice, the masses of celestial bodies appear in the dynamics of the solar system only through the products GM, where G is the constant of gravitation.\"^^qudt:LatexString ;",
+    "Symbol": "S",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "MagneticFluxPerUnitLength" ],
+    "UnitName": "T-M",
+    "SystemName": "T-M",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": -1,
+      "Length": 1,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": -2,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "MassPerElectricCharge" ],
+    "UnitName": "T-SEC",
+    "SystemName": "T-SEC",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": -1,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": -1,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "Energy", "ThermalEnergy" ],
+    "UnitName": "THM_EEC",
+    "SystemName": "THM_EEC",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 2,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": -2,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "ElectricFlux" ],
+    "UnitName": "V-M",
+    "SystemName": "V-M",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": -1,
+      "Length": 3,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": -3,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "SeebeckCoefficient", "ThomsonCoefficient" ],
+    "UnitName": "Volt per Kelvin",
+    "SystemName": "V-PER-K",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "LorenzCoefficient" ],
+    "UnitName": "Square Volt per Square Kelvin",
+    "SystemName": "V2-PER-K2",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "ElectricFlux" ],
+    "UnitName": "V_Stat-CentiM",
+    "SystemName": "V_Stat-CentiM",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": -1,
+      "Length": 3,
+      "LuminousIntensity": 0,
+      "Mass": 1,
+      "Temperature": 0,
+      "Time": -3,
+      "Dimensionless": 0
+    }
+  },
+  {
+    "QuantityKinds": [ "PowerAreaPerSolidAngle" ],
+    "UnitName": "W-M2-PER-SR",
+    "SystemName": "W-M2-PER-SR",
+    "Description": null,
+    "Symbol": null,
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": null
+  },
+  {
+    "QuantityKinds": [ "Dimensionless" ],
+    "UnitName": "atomic-number",
+    "SystemName": "Z",
+    "Description": "\"In chemistry and physics, the atomic number (also known as the proton number) is the number of protons found in the nucleus of an atom and therefore identical to the charge number of the nucleus. It is conventionally represented by the symbol Z. The atomic number uniquely identifies a chemical element. In an atom of neutral charge, the atomic number is also equal to the number of electrons.\"^^rdf:HTML ;",
+    "Symbol": "Z",
+    "ConversionMultiplier": -1.0,
+    "ConversionOffset": 0.0,
+    "DimensionVector": {
+      "AmountOfSubstance": 0,
+      "ElectricCurrent": 0,
+      "Length": 0,
+      "LuminousIntensity": 0,
+      "Mass": 0,
+      "Temperature": 0,
+      "Time": 0,
+      "Dimensionless": 1
+    }
+  }
+]

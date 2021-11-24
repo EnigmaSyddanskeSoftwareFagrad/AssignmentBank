@@ -1,0 +1,8 @@
+.vs/
+bin/
+obj/
+appsettings.Development.json
+~*
+*~
+*.swp
+

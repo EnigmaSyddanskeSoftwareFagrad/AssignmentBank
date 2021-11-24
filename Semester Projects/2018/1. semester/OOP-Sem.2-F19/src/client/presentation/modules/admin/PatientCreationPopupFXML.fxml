@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Developed by SI2-PRO Group 3
+Frederik Alexander Hounsvad, Oliver Lind Nordestgaard, Patrick Nielsen, Jacob Kirketerp Andersen, Nadin Fariss
+-->
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="258.0" prefWidth="600.0" style="-fx-background-color: #2E4057;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.presentation.modules.admin.PatientCreationPopupFXMLController">
+    <children>
+        <FontAwesomeIconView fx:id="cross" fill="#048ba8" glyphName="TIMES" layoutX="540.0" layoutY="55.0" onMouseClicked="#close" size="40" style="-fx-fill: #048ba8;" />
+      <Label layoutX="30.0" layoutY="14.0" prefHeight="54.0" prefWidth="494.0" text="Create patient" textFill="#048ba8">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="89.0" text="Department:" textFill="#048ba8" AnchorPane.rightAnchor="504.0" />
+      <JFXComboBox fx:id="department" focusColor="#048ba8" layoutX="119.0" layoutY="83.0" prefHeight="31.0" prefWidth="384.0" stylesheets="@../../css/generalStyleSheet.css" unFocusColor="#048ba8" AnchorPane.leftAnchor="119.0" />
+      <Label layoutX="48.0" layoutY="142.0" text="Name:" textFill="#048ba8" AnchorPane.rightAnchor="504.0" />
+      <JFXTextField fx:id="name" focusColor="#048ba8" layoutX="119.0" layoutY="130.0" prefHeight="31.0" prefWidth="384.0" stylesheets="@../../css/generalStyleSheet.css" unFocusColor="#048ba8" AnchorPane.leftAnchor="119.0" />
+      <JFXButton layoutX="514.0" layoutY="203.0" onAction="#close" text="Cancel" />
+      <JFXButton layoutX="440.0" layoutY="203.0" onAction="#create" text="Create" />
+    </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</AnchorPane>
