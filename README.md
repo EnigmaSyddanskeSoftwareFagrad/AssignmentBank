@@ -6,7 +6,7 @@ Feel free to create pull-requests with your assignements, but before you do so, 
 ## Rules
 * Make sure one of your group members has not already uploaded your assignment.
 * Make sure to anonymise your assignments.
-* Please follow the folder structure of [Year]/[Semester]/[YourAssignmentFolder]
+* Please follow the folder structure of [ProjectType]/[Year]/[Semester]/[YourAssignmentFolder] or [Bachelor/Master Project]/[ProjectName]
 * Feel free to add your grade at the end of the name of your folder in square brackets. This is not mandatory.
 * Please remove any dist, build or similar folders from your project before creating a pull-request. Likewise we are not interested in IDE settings and such. 
 * You are allowed to upload only a report or only code, if you do not feel like sharing one of them.
